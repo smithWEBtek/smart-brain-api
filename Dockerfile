@@ -6,8 +6,4 @@ COPY ./ ./
 
 RUN npm install
 
-# RUN npm start
-
-# RUN console.log("the app started")
-
 CMD ["/bin/bash"]
